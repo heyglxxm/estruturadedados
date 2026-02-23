@@ -27,9 +27,12 @@ int main()
     }
     else {
         cout << "Codigo invalido!" << endl;
-        return 0; 
+        return 0;
     }
 
     cout << "O valor a ser pago e: R$ " << precoFinal << endl;
+
+
+    return 0;
 
 }

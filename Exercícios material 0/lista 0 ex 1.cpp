@@ -19,4 +19,6 @@ int main()
     if (peso/altura>=25)
     cout<<"Acima do peso"<<endl;
     
+    return 0;
+    
 }
