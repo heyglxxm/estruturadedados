@@ -21,4 +21,7 @@ cin>>nomeInserido;
     if (nomeInserido==nomes[i])
         cout<<"Achei"<<endl;
     }
+	else{
+	cout<<"Não achei"<<endl;
+	}
 }
