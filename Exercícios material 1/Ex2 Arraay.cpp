@@ -17,9 +17,14 @@ int main (){
     }
 
     media/=qnt_notas;
-
+    /*
     for (int i=0;i<qnt_notas;i++){
         if (notas[i]>=media)
+        acimaMedia++;
+    }
+    */
+    for(const int& x : notas){
+        if (x>=media)
         acimaMedia++;
     }
 
